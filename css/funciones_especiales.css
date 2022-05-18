@@ -1,0 +1,13 @@
+.contenedor {
+  border: 5px solid pink;
+  background-color: antiquewhite;
+  display: grid;
+  /* TAMAÑOS VARIABLES */
+  grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+  grid-template-rows: repeat(3, auto);
+}
+
+.item {
+  border: 5px solid rgb(83, 163, 216);
+  font-size: 2rem;
+}
